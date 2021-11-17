@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive layout--> 
+    <link rel="stylesheet" href="styling.css">
+    <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'><!-- Custom google font -->
+    <title>Space Traveler</title>
+  </head>
+  <body>
+    <nav id="menu-bar">
+      <a href="index.html">Home</a> |
+      <a href="media.html">Media</a> |
+      <a href="downloads.html">Downloads</a> |
+      <a href="help.html">Help</a> 
+    </nav>
+    <h1 id="logo">Space Traveler</h1>
+    <h2 id="slogan"><i>An Unforgettable Journey Across the Universe</i></h2>
+    <div id="carousel-container">
+      <div id="left-container">
+        <a href="javascript:;" id="back">
+          <img class="arrow" src="left-arrow.gif">
+        </a>
+      </div>
+      <div id="middle-container">
+        <div id="all-images">
+          <img class="carousel-image" id="visible" src="space-traveler-photo1.png">
+          <img class="carousel-image" id="invisible" src="space-traveler-photo2.png">
+          <img class="carousel-image" id="invisible" src="space-traveler-photo3.png">
+        </div>
+      </div>
+      <div id="right-container">
+        <a id="forward" href="javascript:;">
+          <img class="arrow" src="right-arrow.gif">
+        </a>
+      </div>
+    </div>
+    <div id="buy-div">
+      <a id="buy-link" href="https://store.steampowered.com/">Buy Now!</a><!--Links to main Steam page-->
+    </div>
+    <footer>
+      © 2020 Ryan Ong | CS290 Project Portfolio
+    </footer>
+    <script src="carousel.js"></script>
+  </body>
+</html>

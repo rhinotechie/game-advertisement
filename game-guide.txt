@@ -1,0 +1,21 @@
+>> How to play Space Travelers<<
+
+I. Controls
+
+W, A, S, D - Move
+Mouse - Look
+Left Click - Primary Action
+Right Click - Secondary Action (Melee)
+E - Use / Open / Confirm / Talk
+Esc - Quit
+F1 - Help
+
+II. Objective
+
+Complete your objective given to you at the beginning of the game.  You must gather resources from planets and alien space craft you encounter in order to stay alive.
+
+III. Tips
+
+1. Watch your hunger, thirst, and sanity levels.
+2. Talking your way out of sticky situations is just as viable as fighting your way through them.
+3. Don't die.

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive layout--> 
+    <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'><!-- Custom google font -->
+    <title>Space Traveler</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script><!-- Google recaptcha-->
+  </head>
+  <body>
+    <nav id="menu-bar">
+      <a href="index.html">Home</a> |
+      <a href="media.html">Media</a> |
+      <a href="downloads.html">Downloads</a> |
+      <a href="help.html">Help</a> 
+    </nav>
+    <h1>F.A.Q. | Contact</h1>
+    <ul>
+      <li>Q: Is this game real?<br><span class="answer">A: Sadly, it's not real. :(</span></li>
+      <li>Q: Does this game contain microtransactions?<br><span class="answer">A: Yes, lots and lots of lootboxes!</span></li>
+      <li>Q: Can I resell this game?<br><span class="answer">A: No.</span></li>
+    </ul>
+    <p>Still have questions? Contact me in the form below!</p>    
+    <fieldset id="contact-fieldset">
+      <legend>Contact Form</legend>
+      <form id="contact-form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" target="_blank" method="post">
+        <p>
+          <label for="contact-email">Email: </label><input type="email" id="contact-email" name="email" placeholder="example@somedomain.com" maxlength="49" size="49">
+        </p>
+        <p>
+          <label for="contact-name">Name: </label><input type="text" id="contact-name" name="username" maxlength="50" size="50">
+        </p>
+        <p>
+          <label for="contact-topic">Question topic: </label>
+          <select type="select" id="contact-topic" name="topic">
+            <option value="product-info">Product Information</option>
+            <option value="troubleshooting">Troubleshooting</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <p>
+          <label for="contact-message">Message:</label><br>
+        </p>
+        <p>
+          <textarea id="contact-title" name="message" placeholder="Type your message here." rows="20" cols="80"></textarea><br>
+        </p>
+        <div id="captcha" class="g-recaptcha" data-sitekey="6LenMPsUAAAAAJlR2MTdZK071Uu-eH_CX3IDQDP6"></div>
+        <input id="submit-button" type="submit" value="submit">
+      </form>
+    </fieldset>
+    <footer>
+      © 2020 Ryan Ong | CS290 Project Portfolio
+    </footer>   
+  </body>
+</html>
